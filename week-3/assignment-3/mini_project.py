@@ -3,23 +3,23 @@
 #Suggestion: Morning Python class — great time to focus!
 day=input("What day is it? ")
 time=input("What time of day? ")
-if day.lower() == "monday" and time == "morning":
+if day.lower() == "monday" and time.lower() == "morning":
     print("Suggestion: Morning Python class — great time to focus!")
-elif day.lower() == "monday" and time == "afternoon":
+elif day.lower() == "monday" and time.lower() == "afternoon":
     print("Suggestion:Perfect Afternoon for a mentor session!.")
-elif day.lower() ==  "monday" and time == "evening":
+elif day.lower() ==  "monday" and time.lower() == "evening":
     print("Suggestion: Perfect evening to take Code The Dream Quiz.")
-elif day.lower() ==  "tuesday"and time == "morning":
+elif day.lower() ==  "tuesday"and time.lower() == "morning":
     print("Suggestion: Morning Python class — great time to focus!")   
-elif day.lower() ==  "tuesday" and time == "afternoon":
+elif day.lower() ==  "tuesday" and time.lower() == "afternoon":
     print("Suggestion:Perfect afternoon for doing the assignment.!")
-elif day.lower() ==  "tuesday" and time == "evening":
+elif day.lower() ==  "tuesday" and time.lower() == "evening":
     print("Suggestion: Perfect evening to submit the assignment.")
-elif day == "Wednesday" or "wednesday" and time == "morning":
+elif day.lower()== "wednesday" and time.lower() == "morning":
     print("Suggestion: Morning Python class — great time to focus!")   
-elif day.lower() ==  "wednesday" and time == "afternoon":
+elif day.lower() ==  "wednesday" and time.lower() == "afternoon":
     print("Suggestion:Perfect Afternoon for trying a new recepie.!")
-elif day.lower() ==  "wednesday" and time == "evening":
+elif day.lower() ==  "wednesday" and time.lower() == "evening":
     print("Suggestion: Perfect evening for a movie.")
 else:
     print("Sorry, I don't recognize that day. Try: Monday, Tuesday, Wednesday...")

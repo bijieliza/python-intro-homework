@@ -10,7 +10,7 @@ elif score>=70 and score<=79:
     print ("Grade: C")
 elif score>=60 and score<=69:
     print (f"Score: {score}")
-    print ("Grade: E")
+    print ("Grade: D")
 elif score<=60:
     print (f"Score: {score}")
     print ("Grade: F")
