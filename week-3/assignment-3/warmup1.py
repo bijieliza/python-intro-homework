@@ -11,8 +11,7 @@ elif score>=70 and score<=79:
 elif score>=60 and score<=69:
     print (f"Score: {score}")
     print ("Grade: D")
-elif score<=60:
+else:
     print (f"Score: {score}")
     print ("Grade: F")
-else:
-     print("")   
+  
