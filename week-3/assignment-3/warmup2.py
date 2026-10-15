@@ -8,5 +8,5 @@ elif age>=18 and age<=64:
 elif age>=65:
     print("You are a Senior.")
 else:
-    print("")
+    print("Please enter a valid age")
     
