@@ -22,14 +22,17 @@ def search(numbers, target):
 
 
 def bubble_sort(numbers):
-    swapped = True
-    while swapped:
-        swapped = False
-        for i in range(len(numbers) - 1):
-            if numbers[i] > numbers[i + 1]:
-                numbers[i], numbers[i + 1] = numbers[i + 1], numbers[i]
-                swapped = True
-    return numbers
+    sorted_list = numbers[:] 
+    n = len(sorted_list)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if sorted_list[j] > sorted_list[j + 1]:
+                sorted_list[j], sorted_list[j + 1] = (
+                    sorted_list[j + 1],
+                    sorted_list[j],
+                )
+
+    return sorted_list
 
 
 def show_menu():
