@@ -13,8 +13,6 @@ if os.path.exists('../data/expenses.csv'):
                 row["amount"] = float(row["amount"])
                 expenses.append(row)           
                 total +=  float(row["amount"])   
-        print(expenses)
-        print(total)
         with open("food_report.txt", "w") as report:
             report.write(f"Food Expense Report — generated {today}\n")
             for expense in expenses:

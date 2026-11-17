@@ -1,5 +1,5 @@
-#import os
-#print(os.getcwd())
 with open('../data/notes.txt', 'r') as file:
+    line_no=1
     for line in file:
-        print(line.strip())      
+        print("Line",line_no, ":", line.strip())      
+        line_no += 1
