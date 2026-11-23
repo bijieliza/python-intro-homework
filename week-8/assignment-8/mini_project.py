@@ -39,7 +39,7 @@ try:
                 )
 
 except FileNotFoundError:
-    print("Error: data.csv was not found.")
+    print("Error: ../data/messy_data.csv was not found.")
     exit()
 
 print("=== CSV Report ===")

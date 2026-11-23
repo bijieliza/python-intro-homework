@@ -4,9 +4,7 @@
 #idna==3.20
 #requests==2.34.2
 #urllib3==2.8.0
-
 import requests
-
 print("Requests version:", requests.__version__)
 
 
